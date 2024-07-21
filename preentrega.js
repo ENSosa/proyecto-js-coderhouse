@@ -89,7 +89,7 @@ let filtrarTipos = (tipoBebida) => {
             if (cantidad > 0 && cantidad <= productoSeleccionado.stock) {
                 agregarAlCarrito(productoSeleccionado, cantidad);
             } else {
-                alert("Cantidad no válida o stock insuficiente.");
+                alert("stock insuficiente.");
             }
         } else {
             alert("Producto no encontrado.");
