@@ -1,0 +1,596 @@
+[
+  {
+    "id": 1,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/imperial-ipa.webp",
+    "price": 2600,
+    "rating": 4.7,
+    "title": "Imperial IPA",
+    "stock": 10,
+    "destacado": false
+  },
+  {
+    "id": 2,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/imperial-golden.webp",
+    "price": 2400,
+    "rating": 4.6,
+    "title": "Imperial GOLDEN",
+    "stock": 10,
+    "destacado": false
+  },
+  {
+    "id": 3,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/imperial-lager.webp",
+    "price": 2400,
+    "rating": 4.5,
+    "title": "Imperial LAGER",
+    "stock": 8,
+    "destacado": false
+  },
+  {
+    "id": 4,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/heineken.webp",
+    "price": 3000,
+    "rating": 4.3,
+    "title": "Heineken",
+    "stock": 15,
+    "destacado": false
+  },
+  {
+    "id": 5,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/schneider-473ml-lata.webp",
+    "price": 1100,
+    "rating": 4.3,
+    "title": "Scheneider 473ml",
+    "stock": 8,
+    "destacado": false
+  },
+  {
+    "id": 6,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/miller-473ml-lata.webp",
+    "price": 1350,
+    "rating": 4.3,
+    "title": "Miler 473ml",
+    "stock": 15,
+    "destacado": false
+  },
+  {
+    "id": 7,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/quilmes-473ml-lata.webp",
+    "price": 1100,
+    "rating": 4.3,
+    "title": "Quilmes 473ml",
+    "stock": 15,
+    "destacado": false
+  },
+  {
+    "id": 8,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/13-sernova.webp",
+    "price": 5300,
+    "rating": 4.3,
+    "title": "Sernova ",
+    "stock": 5,
+    "destacado": true
+  },
+  {
+    "id": 9,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/16-smirnoff-rasberry1.webp",
+    "price": 6600,
+    "rating": 4.3,
+    "title": "Smirnoff Rasberry",
+    "stock": 5,
+    "destacado": false
+  },
+  {
+    "id": 10,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/2-absolut-apeach.webp",
+    "price": 19800,
+    "rating": 4.3,
+    "title": "Absolute Apeach",
+    "stock": 3,
+    "destacado": true
+  },
+  {
+    "id": 11,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/17smirnoff-watermelon1.webp",
+    "price": 7000,
+    "rating": 4.3,
+    "title": "Smirnoff Watermelon",
+    "stock": 5,
+    "destacado": false
+  },
+  {
+    "id": 12,
+    "category": "vinos",
+    "description": "",
+    "image": "assets/vinos/alma-mora.webp",
+    "price": 5000,
+    "rating": 4.3,
+    "title": "Alma Mora",
+    "stock": 3,
+    "destacado": false
+  },
+  {
+    "id": 13,
+    "category": "vinos",
+    "description": "",
+    "image": "assets/vinos/portillo-malbec.webp",
+    "price": 4600,
+    "rating": 4.3,
+    "title": "Portillo Malbec",
+    "stock": 4,
+    "destacado": false
+  },
+  {
+    "id": 14,
+    "category": "vinos",
+    "description": "",
+    "image": "assets/vinos/novecento-malbec.webp",
+    "price": 3600,
+    "rating": 4.3,
+    "title": "Novecento Malbec",
+    "stock": 4,
+    "destacado": false
+  },
+  {
+    "id": 15,
+    "category": "vinos",
+    "description": "",
+    "image": "assets/vinos/cosecha-tardia.webp",
+    "price": 3700,
+    "rating": 4.3,
+    "title": "Cosecha Tardia",
+    "stock": 6,
+    "destacado": false
+  },
+  {
+    "id": 16,
+    "category": "vinos",
+    "description": "",
+    "image": "assets/vinos/santa-julia.webp",
+    "price": 4600,
+    "rating": 4.3,
+    "title": "Santa Julia Malbec",
+    "stock": 6,
+    "destacado": false
+  },
+  {
+    "id": 17,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/amstel-lata-500ml.webp",
+    "price": 1030,
+    "title": "amstel 500ml",
+    "stock": 10,
+    "destacado": false
+  },
+  {
+    "id": 18,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/andes-negra-lata-473ml1lata.webp",
+    "price": 1800,
+    "title": "andes negra 473ml",
+    "stock": 8,
+    "destacado": false
+  },
+  {
+    "id": 19,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/brahma-lata-473ml.webp",
+    "price": 1500,
+    "title": "brahma 473ml",
+    "stock": 15,
+    "destacado": false
+  },
+  {
+    "id": 20,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/corona-710ml1-botellita.webp",
+    "price": 3200,
+    "title": "corona 710ml",
+    "stock": 8,
+    "destacado": false
+  },
+  {
+    "id": 21,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/imperial-cream-stout-473ml1-lata.webp",
+    "price": 1700,
+    "title": "imperial cream stout 473ml",
+    "stock": 3,
+    "destacado": false
+  },
+  {
+    "id": 22,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/quilmes-ipa-473ml-lata.webp",
+    "price": 1380,
+    "title": "quilmes ipa",
+    "stock": 5,
+    "destacado": false
+  },
+  {
+    "id": 23,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/stella-artois-473ml-lata.webp",
+    "price": 1400,
+    "title": "stella artois 473ml",
+    "stock": 5,
+    "destacado": false
+  },
+  {
+    "id": 24,
+    "category": "cervezas",
+    "description": "",
+    "image": "assets/cervezas/stella-artois-noire-lata.webp",
+    "price": 1800,
+    "title": "stella artois noire 473ml",
+    "stock": 3,
+    "destacado": false
+  },
+  {
+    "id": 25,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/1-absolut-100.webp",
+    "price": 48960,
+    "title": "absolut",
+    "stock": 2,
+    "destacado": true
+  },
+  {
+    "id": 26,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/4-alkimia-gin-n1-750ml-.webp",
+    "price": 11600,
+    "title": "alkimia gin 750ml",
+    "stock": 3,
+    "destacado": false
+  },
+  {
+    "id": 27,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/5-black-label.webp",
+    "price": 66800,
+    "title": "black label",
+    "stock": 2,
+    "destacado": false
+  },
+  {
+    "id": 28,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/6-gin-brighton-destacado-3.png",
+    "price": 20000,
+    "title": "gin brighton",
+    "stock": 3,
+    "destacado": true
+  },
+  {
+    "id": 29,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/7-heredero-boysenberry.webp",
+    "price": 12500,
+    "title": "hereder boysenberry",
+    "stock": 2,
+    "destacado": false
+  },
+  {
+    "id": 30,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/8-jack-daniels-destacado.webp",
+    "price": 46500,
+    "title": "jack daniels",
+    "stock": 2,
+    "destacado": true
+  },
+  {
+    "id": 31,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/9-johnnie-walker-blue-2-vasos-destacado.webp",
+    "price": 35000,
+    "title": "johnnie walker blue",
+    "stock": 2,
+    "destacado": true
+  },
+  {
+    "id": 32,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/10-johnnie-walker-red.webp",
+    "price": 35000,
+    "title": "johnnie walker red",
+    "stock": 1,
+    "destacado": false
+  },
+  {
+    "id": 33,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/12-merle-750ml1.webp",
+    "price": 12000,
+    "title": "merle",
+    "stock": 1,
+    "destacado": false
+  },
+  {
+    "id": 34,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/14-skyy-coconaut1-.webp",
+    "price": 8000,
+    "title": "skyy coconaut",
+    "stock": 4,
+    "destacado": false
+  },
+  {
+    "id": 35,
+    "category": "spirits",
+    "description": "",
+    "image": "assets/spirits/15-skyy-pineaplle1.webp",
+    "price": 8000,
+    "title": "skyy pineaplle",
+    "stock": 3,
+    "destacado": false
+  },
+  {
+    "id": 36,
+    "category": "espumantes",
+    "description": "",
+    "image": "assets/espumantes/16-charmat-partridge-extra-brut-.webp",
+    "price": 5500,
+    "title": "charmat partridge extra brut",
+    "stock": 2,
+    "destacado": false
+  },
+
+  {
+    "id": 37,
+    "category": "espumantes",
+    "description": "",
+    "image": "assets/espumantes/1888-750ml.webp",
+    "price": 3500,
+    "title": "1888 sidra",
+    "stock": 10,
+    "destacado": false
+  },
+
+  {
+    "id": 38,
+    "category": "espumantes",
+    "description": "",
+    "image": "assets/espumantes/1930-pera-750ml1.webp",
+    "price": 3000,
+    "title": "1930 pera",
+    "stock": 5,
+    "destacado": false
+  },
+  {
+    "id": 39,
+    "category": "espumantes",
+    "description": "",
+    "image": "assets/espumantes/baron-b-extra-brut.webp",
+    "price": 25500,
+    "title": "baron b extra brut",
+    "stock": 3,
+    "destacado": true
+  },
+
+  {
+    "id": 40,
+    "category": "espumantes",
+    "description": "",
+    "image": "assets/espumantes/chandon-extra-brut-magnum.webp",
+    "price": 12500,
+    "title": "chandon exrta brut magnum",
+    "stock": 2,
+    "destacado": false
+  },
+
+  {
+    "id": 41,
+    "category": "espumantes",
+    "description": "",
+    "image": "assets/espumantes/maria-codorniu-dulce-.webp",
+    "price": 8000,
+    "title": "maria codorniu dulce",
+    "stock": 3,
+    "destacado": false
+  },
+
+  {
+    "id": 42,
+    "category": "espumantes",
+    "description": "",
+    "image": "assets/espumantes/moet-chandon-nectar-imperial1-.webp",
+    "price": 200000,
+    "title": "moet chandon nectar imperial",
+    "stock": 2,
+    "destacado": true
+  },
+
+  {
+    "id": 43,
+    "category": "espumantes",
+    "description": "",
+    "image": "assets/espumantes/moet&chandon-imperial-brut.webp",
+    "price": 131000,
+    "title": "moet & chandon imperial brut",
+    "stock": 3,
+    "destacado": true
+  },
+
+  {
+    "id": 44,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/1882-fernet-750ml1-.webp",
+    "price": 6300,
+    "title": "1882 fernet",
+    "stock": 5,
+    "destacado": false
+  },
+
+  {
+    "id": 45,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/alfonsina-vermouth-floreale.webp",
+    "price": 11500,
+    "title": "alfonsina vermouth floreale",
+    "stock": 2,
+    "destacado": false
+  },
+
+  {
+    "id": 46,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/american-club-frutilla-colada-.webp",
+    "price": 1500,
+    "title": "american club frutilla",
+    "stock": 4,
+    "destacado": false
+  },
+  {
+    "id": 47,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/aperol-750ml1-.webp",
+    "price": 7000,
+    "title": "aperol 750ml",
+    "stock": 4,
+    "destacado": false
+  },
+
+  {
+    "id": 48,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/campari-750ml1-.webp",
+    "price": 9000,
+    "title": "campari",
+    "stock": 5,
+    "destacado": false
+  },
+
+  {
+    "id": 49,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/cinzano-rosso-1000ml1.webp",
+    "price": 6000,
+    "title": "cinzano rosso",
+    "stock": 3,
+    "destacado": false
+  },
+
+  {
+    "id": 50,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/fernet-750ml.webp",
+    "price": 10000,
+    "title": "fernert 750ml",
+    "stock": 6,
+    "destacado": false
+  },
+
+  {
+    "id": 52,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/fernet-branca-450ml1-.webp",
+    "price": 8000,
+    "title": "fernet 450ml",
+    "stock": 6,
+    "destacado": false
+  },
+
+  {
+    "id": 53,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/gancia-950ml1-.webp",
+    "price": 3000,
+    "title": "gancia",
+    "stock": 7,
+    "destacado": false
+  },
+
+  {
+    "id": 54,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/martini-bianco-1000ml1-.webp",
+    "price": 5000,
+    "title": "martini bianco",
+    "stock": 4,
+    "destacado": false
+  },
+
+  {
+    "id": 55,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/martini-bitter-1000ml1-.webp",
+    "price": 6000,
+    "title": "martini bitter",
+    "stock": 2,
+    "destacado": false
+  },
+
+  {
+    "id": 56,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/negroni-inmigrante-750ml1-.webp",
+    "price": 10000,
+    "title": "negroni inmigrante",
+    "stock": 3,
+    "destacado": false
+  },
+
+  {
+    "id": 57,
+    "category": "aperitivos",
+    "description": "",
+    "image": "assets/aperitivos/pina-colada-america-club.webp",
+    "price": 6000,
+    "title": "piña colada american club",
+    "stock": 4,
+    "destacado": false
+  }
+]

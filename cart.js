@@ -12,7 +12,7 @@ const renderProducts = (arrayProductos) => {
         productCard.innerHTML = `
             <img class="image" src=${producto.image} />
             <h3 class="title">${producto.title}</h3>
-            <p>${producto.description}</p>
+            <p class="stock">Stock: ${producto.stock}</p>
             <p class="price">$${producto.price}</p>
             <div class="container-btns">
                 <button class="btn-restar" onclick="restarCantidad(${producto.id})"> - </button>
@@ -23,14 +23,35 @@ const renderProducts = (arrayProductos) => {
         `;
         containerCart.appendChild(productCard);
     });
-
-    actualizarTotalCarrito();
 };
 
 const eliminarDelCarrito = (id) => {
-    carrito = carrito.filter((elemento) => elemento.id !== id);
-    localStorage.setItem("carrito", JSON.stringify(carrito));
-    renderProducts(carrito);
+    Swal.fire({
+        title: '¿Estás seguro?',
+        text: "¡Este producto será eliminado del carrito!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Sí, eliminar',
+        cancelButtonText: 'Cancelar'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            carrito = carrito.filter((elemento) => elemento.id !== id);
+            localStorage.setItem("carrito", JSON.stringify(carrito));
+            renderProducts(carrito);
+
+            Swal.fire({
+                toast: true,
+                position: 'top-end',
+                icon: 'success',
+                title: 'Producto eliminado del carrito',
+                showConfirmButton: false,
+                timer: 1500,
+                timerProgressBar: true
+            });
+        }
+    });
 };
 
 const restarCantidad = (id) => {
@@ -53,13 +74,34 @@ const sumarCantidad = (id) => {
         localStorage.setItem("carrito", JSON.stringify(carrito));
         renderProducts(carrito);
     } else {
-        alert("No hay más stock disponible de este producto.");
+        Swal.fire({
+            toast: true,
+            position: 'top-end',
+            icon: 'error',
+            title: 'No hay más stock disponible de este producto',
+            showConfirmButton: false,
+            timer: 1500,
+            timerProgressBar: true
+        });
     }
 };
 
-const actualizarTotalCarrito = () => {
+const finalizarCompra = () => {
     let total = carrito.reduce((acc, producto) => acc + producto.price * producto.quantity, 0);
-    document.getElementById("total-cart").innerText = `Total de la compra: $${total}`;
+    // Muestra el total en una alerta de SweetAlert
+    Swal.fire({
+        title: 'Compra Finalizada',
+        text: `El total de la compra es: $${total}`,
+        icon: 'success',
+        confirmButtonColor: '#3085d6',
+        confirmButtonText: 'Aceptar',
+        timer: 5000,  
+        timerProgressBar: true
+    }).then(() => {
+        // Limpia el carrito después de finalizar la compra
+        carrito = [];
+        localStorage.setItem("carrito", JSON.stringify(carrito));
+        renderProducts(carrito); 
+    });
 };
-
 renderProducts(carrito);
